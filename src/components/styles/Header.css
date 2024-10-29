@@ -1,0 +1,44 @@
+/* Header Container */
+.cp-header {
+    background-color: #282c34; 
+    color: white; /* White text for readability */
+    padding: 20px; /* Padding inside the container */
+    text-align: center; /* Centered text */
+    border-radius: 8px; /* Smooth corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 20px 0; /* Margin for spacing */
+    font-size: 24px; /* Large font size */
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+}
+
+/* Title Styling */
+.cp-header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 36px; /* Larger font size for title */
+}
+
+/* Subheading Styling */
+.cp-header h2 {
+    margin: 10px 0 0; /* Margin for spacing */
+    font-size: 18px; /* Font size for subheading */
+    color: #ddd; /* Lighter color for subheading */
+}
+
+/* Additional Styling for Buttons or Links */
+.cp-header a, .cp-header button {
+    background-color: #4CAF50; /* Green background for buttons/links */
+    color: white; /* White text for buttons/links */
+    padding: 10px 15px; /* Padding for buttons/links */
+    border: none; /* No border */
+    border-radius: 4px; /* Smooth corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Inline-block for proper spacing */
+    margin-top: 15px; /* Margin for spacing */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.cp-header a:hover, .cp-header button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}

@@ -1,0 +1,55 @@
+
+.edit-car {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 10px 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.edit-car label {
+    display: block;
+    margin: 10px 0 5px; 
+    font-size: 14px; 
+    color: #333; 
+}
+
+.edit-car input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    margin-bottom: 10px; 
+    font-size: 14px; 
+    box-sizing: border-box; 
+}
+
+
+.edit-car button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-right: 10px; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.edit-car button:hover {
+    transform: scale(1.05); 
+}
+
+.edit-car button:first-of-type {
+    background-color: #4CAF50; 
+}
+
+.edit-car button:last-of-type {
+    background-color: #e50914; 
+}
+
+.edit-car button:last-of-type:hover {
+    background-color: #d40813; 
+}
